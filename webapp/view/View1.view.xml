@@ -1,0 +1,15 @@
+<mvc:View controllerName="project.ImportExcel.controller.View1" xmlns:mvc="sap.ui.core.mvc" xmlns:t="sap.ui.table" displayBlock="true"
+	xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<Link text="upload" press="onConfirmDialog"/>
+						<t:Table id="mytbl" rows="{/}" visibleRowCount="5" width="100%"></t:Table>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
